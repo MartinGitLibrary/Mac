@@ -38,8 +38,12 @@ test('Title: My First Playwright Script', async ({ page }) => {
 
     // Validate web page the URL and the logo
     await page2.waitForLoadState();
-    await expect(page2).toHaveURL('https://login.salesforce.com/');
+    await expect(page2).toHaveURL('https://login.salesforcecom/');
     await expect(page2.getByAltText('Salesforce')).toBeVisible();
+
+    // close both pages
+   // await page2.close();
+    //await page.close();
 
 })
 
