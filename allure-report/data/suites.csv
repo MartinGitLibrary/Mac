@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2105","Test 1","Google Chrome Max","Thu Jul 10 23:57:27 IST 2025","passed","Thu Jul 10 23:57:29 IST 2025","Reports","Chapter04/04_TestReport_Test.spec.ts","",""
+"","3341","Test 2","Google Chrome Max","Thu Jul 10 23:57:27 IST 2025","passed","Thu Jul 10 23:57:30 IST 2025","Reports","Chapter04/04_TestReport_Test.spec.ts","",""
+"","2165","Get Text & Get Attribute value in playwright","Google Chrome Max","Fri Jul 11 01:13:00 IST 2025","passed","Fri Jul 11 01:13:03 IST 2025","","Chapter04/05_TextContent_GetAttribute_Test.spec.ts","",""
+"","2107","Test 3","Google Chrome Max","Thu Jul 10 23:57:27 IST 2025","passed","Thu Jul 10 23:57:29 IST 2025","Reports","Chapter04/04_TestReport_Test.spec.ts","",""
+"","1569","Test 4","Google Chrome Max","Thu Jul 10 23:57:32 IST 2025","failed","Thu Jul 10 23:57:33 IST 2025","Reports","Chapter04/04_TestReport_Test.spec.ts","",""
+"","2367","TestContent_GetAttribute in playwright","Google Chrome Max","Fri Jul 11 00:57:52 IST 2025","passed","Fri Jul 11 00:57:55 IST 2025","","Chapter04/05_TestContent_GetAttribute_Test.spec.ts","",""

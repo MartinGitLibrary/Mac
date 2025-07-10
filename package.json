@@ -2,13 +2,16 @@
   "name": "full",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test && node save-last-run.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.53.1",
-    "@types/node": "^24.0.2"
+    "@types/node": "^24.0.2",
+    "allure-playwright": "^3.3.0"
   }
 }

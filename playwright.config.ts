@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import { on } from 'events';
 
 /**
  * Read environment variables from file.
@@ -29,17 +30,27 @@ export default defineConfig({
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
+  //forbidOnly: true, // Fail the build if test.only is left in the source code
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 1,
   /* Opt out of parallel tests on CI. */
-  workers: 1,
+  workers: process.env.CI ? 1 : 5, // Number of workers to use for parallel test execution
+  // --workers 2
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [
+    ['html'],
+    ['list'],
+    //['dot'],
+    ['json', { outputFile: 'json-test-report.json' }],
+    ['junit', { outputFile: 'junit-test-report.xml' }],
+    ['allure-playwright'],
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
 
-    testIdAttribute: 'data-tab-item', // Set the test ID attribute to an empty string to disable it
+    testIdAttribute: 'data-tab-item', // Set the test ID attribute to an empty string to disable it // Custom test ID attribute
     headless: false,
+    video: 'on',
     screenshot: 'on',
     trace: 'on',
 

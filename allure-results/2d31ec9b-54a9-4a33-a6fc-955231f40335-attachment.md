@@ -1,0 +1,517 @@
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Product"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to…"
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FMartinGitLibrary
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E&source=header
+  - button "Appearance settings"
+- main:
+  - img "@MartinGitLibrary"
+  - strong: MartinGitLibrary
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FMartinGitLibrary
+  - navigation "User profile":
+    - link "Overview":
+      - /url: /MartinGitLibrary
+    - link "Repositories 4":
+      - /url: /MartinGitLibrary?tab=repositories
+    - link "Projects":
+      - /url: /MartinGitLibrary?tab=projects
+    - link "Packages":
+      - /url: /MartinGitLibrary?tab=packages
+    - link "Stars":
+      - /url: /MartinGitLibrary?tab=stars
+  - img "@MartinGitLibrary"
+  - strong: MartinGitLibrary
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FMartinGitLibrary
+  - link "View MartinGitLibrary's full-sized avatar":
+    - /url: https://avatars.githubusercontent.com/u/215535888?v=4
+    - img "View MartinGitLibrary's full-sized avatar"
+  - heading "Martin Personal MartinGitLibrary" [level=1]
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FMartinGitLibrary
+  - list
+  - button "Block or Report"
+  - heading "Pinned Loading" [level=2]:
+    - text: Pinned Loading
+    - status
+  - list:
+    - listitem:
+      - link "playwright":
+        - /url: /MartinGitLibrary/playwright
+      - text: Public
+      - paragraph
+      - paragraph: Java
+  - heading "7 contributions in the last year" [level=2]
+  - link "Skip to contributions year list":
+    - /url: "#year-link-2025"
+  - grid "Contribution Graph":
+    - caption: Contribution Graph
+    - rowgroup:
+      - row "Day of Week July August September October November December January February March April May June":
+        - gridcell "Day of Week"
+        - gridcell "July"
+        - gridcell "August"
+        - gridcell "September"
+        - gridcell "October"
+        - gridcell "November"
+        - gridcell "December"
+        - gridcell "January"
+        - gridcell "February"
+        - gridcell "March"
+        - gridcell "April"
+        - gridcell "May"
+        - gridcell "June"
+    - rowgroup:
+      - row:
+        - gridcell "Sunday"
+        - gridcell "No contributions on July 7th."
+        - gridcell "No contributions on July 14th."
+        - gridcell "No contributions on July 21st."
+        - gridcell "No contributions on July 28th."
+        - gridcell "No contributions on August 4th."
+        - gridcell "No contributions on August 11th."
+        - gridcell "No contributions on August 18th."
+        - gridcell "No contributions on August 25th."
+        - gridcell "No contributions on September 1st."
+        - gridcell "No contributions on September 8th."
+        - gridcell "No contributions on September 15th."
+        - gridcell "No contributions on September 22nd."
+        - gridcell "No contributions on September 29th."
+        - gridcell "No contributions on October 6th."
+        - gridcell "No contributions on October 13th."
+        - gridcell "No contributions on October 20th."
+        - gridcell "No contributions on October 27th."
+        - gridcell "No contributions on November 3rd."
+        - gridcell "No contributions on November 10th."
+        - gridcell "No contributions on November 17th."
+        - gridcell "No contributions on November 24th."
+        - gridcell "No contributions on December 1st."
+        - gridcell "No contributions on December 8th."
+        - gridcell "No contributions on December 15th."
+        - gridcell "No contributions on December 22nd."
+        - gridcell "No contributions on December 29th."
+        - gridcell "No contributions on January 5th."
+        - gridcell "No contributions on January 12th."
+        - gridcell "No contributions on January 19th."
+        - gridcell "No contributions on January 26th."
+        - gridcell "No contributions on February 2nd."
+        - gridcell "No contributions on February 9th."
+        - gridcell "No contributions on February 16th."
+        - gridcell "No contributions on February 23rd."
+        - gridcell "No contributions on March 2nd."
+        - gridcell "No contributions on March 9th."
+        - gridcell "No contributions on March 16th."
+        - gridcell "No contributions on March 23rd."
+        - gridcell "No contributions on March 30th."
+        - gridcell "No contributions on April 6th."
+        - gridcell "No contributions on April 13th."
+        - gridcell "No contributions on April 20th."
+        - gridcell "No contributions on April 27th."
+        - gridcell "No contributions on May 4th."
+        - gridcell "No contributions on May 11th."
+        - gridcell "No contributions on May 18th."
+        - gridcell "No contributions on May 25th."
+        - gridcell "No contributions on June 1st."
+        - gridcell "No contributions on June 8th."
+        - gridcell "No contributions on June 15th."
+        - gridcell "No contributions on June 22nd."
+        - gridcell "No contributions on June 29th."
+        - gridcell "No contributions on July 6th."
+      - row:
+        - gridcell "Monday"
+        - gridcell "No contributions on July 8th."
+        - gridcell "No contributions on July 15th."
+        - gridcell "No contributions on July 22nd."
+        - gridcell "No contributions on July 29th."
+        - gridcell "No contributions on August 5th."
+        - gridcell "No contributions on August 12th."
+        - gridcell "No contributions on August 19th."
+        - gridcell "No contributions on August 26th."
+        - gridcell "No contributions on September 2nd."
+        - gridcell "No contributions on September 9th."
+        - gridcell "No contributions on September 16th."
+        - gridcell "No contributions on September 23rd."
+        - gridcell "No contributions on September 30th."
+        - gridcell "No contributions on October 7th."
+        - gridcell "No contributions on October 14th."
+        - gridcell "No contributions on October 21st."
+        - gridcell "No contributions on October 28th."
+        - gridcell "No contributions on November 4th."
+        - gridcell "No contributions on November 11th."
+        - gridcell "No contributions on November 18th."
+        - gridcell "No contributions on November 25th."
+        - gridcell "No contributions on December 2nd."
+        - gridcell "No contributions on December 9th."
+        - gridcell "No contributions on December 16th."
+        - gridcell "No contributions on December 23rd."
+        - gridcell "No contributions on December 30th."
+        - gridcell "No contributions on January 6th."
+        - gridcell "No contributions on January 13th."
+        - gridcell "No contributions on January 20th."
+        - gridcell "No contributions on January 27th."
+        - gridcell "No contributions on February 3rd."
+        - gridcell "No contributions on February 10th."
+        - gridcell "No contributions on February 17th."
+        - gridcell "No contributions on February 24th."
+        - gridcell "No contributions on March 3rd."
+        - gridcell "No contributions on March 10th."
+        - gridcell "No contributions on March 17th."
+        - gridcell "No contributions on March 24th."
+        - gridcell "No contributions on March 31st."
+        - gridcell "No contributions on April 7th."
+        - gridcell "No contributions on April 14th."
+        - gridcell "No contributions on April 21st."
+        - gridcell "No contributions on April 28th."
+        - gridcell "No contributions on May 5th."
+        - gridcell "No contributions on May 12th."
+        - gridcell "No contributions on May 19th."
+        - gridcell "No contributions on May 26th."
+        - gridcell "No contributions on June 2nd."
+        - gridcell "3 contributions on June 9th."
+        - gridcell "2 contributions on June 16th."
+        - gridcell "No contributions on June 23rd."
+        - gridcell "No contributions on June 30th."
+        - gridcell "No contributions on July 7th."
+      - row:
+        - gridcell "Tuesday"
+        - gridcell "No contributions on July 9th."
+        - gridcell "No contributions on July 16th."
+        - gridcell "No contributions on July 23rd."
+        - gridcell "No contributions on July 30th."
+        - gridcell "No contributions on August 6th."
+        - gridcell "No contributions on August 13th."
+        - gridcell "No contributions on August 20th."
+        - gridcell "No contributions on August 27th."
+        - gridcell "No contributions on September 3rd."
+        - gridcell "No contributions on September 10th."
+        - gridcell "No contributions on September 17th."
+        - gridcell "No contributions on September 24th."
+        - gridcell "No contributions on October 1st."
+        - gridcell "No contributions on October 8th."
+        - gridcell "No contributions on October 15th."
+        - gridcell "No contributions on October 22nd."
+        - gridcell "No contributions on October 29th."
+        - gridcell "No contributions on November 5th."
+        - gridcell "No contributions on November 12th."
+        - gridcell "No contributions on November 19th."
+        - gridcell "No contributions on November 26th."
+        - gridcell "No contributions on December 3rd."
+        - gridcell "No contributions on December 10th."
+        - gridcell "No contributions on December 17th."
+        - gridcell "No contributions on December 24th."
+        - gridcell "No contributions on December 31st."
+        - gridcell "No contributions on January 7th."
+        - gridcell "No contributions on January 14th."
+        - gridcell "No contributions on January 21st."
+        - gridcell "No contributions on January 28th."
+        - gridcell "No contributions on February 4th."
+        - gridcell "No contributions on February 11th."
+        - gridcell "No contributions on February 18th."
+        - gridcell "No contributions on February 25th."
+        - gridcell "No contributions on March 4th."
+        - gridcell "No contributions on March 11th."
+        - gridcell "No contributions on March 18th."
+        - gridcell "No contributions on March 25th."
+        - gridcell "No contributions on April 1st."
+        - gridcell "No contributions on April 8th."
+        - gridcell "No contributions on April 15th."
+        - gridcell "No contributions on April 22nd."
+        - gridcell "No contributions on April 29th."
+        - gridcell "No contributions on May 6th."
+        - gridcell "No contributions on May 13th."
+        - gridcell "No contributions on May 20th."
+        - gridcell "No contributions on May 27th."
+        - gridcell "No contributions on June 3rd."
+        - gridcell "2 contributions on June 10th."
+        - gridcell "No contributions on June 17th."
+        - gridcell "No contributions on June 24th."
+        - gridcell "No contributions on July 1st."
+        - gridcell "No contributions on July 8th."
+      - row:
+        - gridcell "Wednesday"
+        - gridcell "No contributions on July 10th."
+        - gridcell "No contributions on July 17th."
+        - gridcell "No contributions on July 24th."
+        - gridcell "No contributions on July 31st."
+        - gridcell "No contributions on August 7th."
+        - gridcell "No contributions on August 14th."
+        - gridcell "No contributions on August 21st."
+        - gridcell "No contributions on August 28th."
+        - gridcell "No contributions on September 4th."
+        - gridcell "No contributions on September 11th."
+        - gridcell "No contributions on September 18th."
+        - gridcell "No contributions on September 25th."
+        - gridcell "No contributions on October 2nd."
+        - gridcell "No contributions on October 9th."
+        - gridcell "No contributions on October 16th."
+        - gridcell "No contributions on October 23rd."
+        - gridcell "No contributions on October 30th."
+        - gridcell "No contributions on November 6th."
+        - gridcell "No contributions on November 13th."
+        - gridcell "No contributions on November 20th."
+        - gridcell "No contributions on November 27th."
+        - gridcell "No contributions on December 4th."
+        - gridcell "No contributions on December 11th."
+        - gridcell "No contributions on December 18th."
+        - gridcell "No contributions on December 25th."
+        - gridcell "No contributions on January 1st."
+        - gridcell "No contributions on January 8th."
+        - gridcell "No contributions on January 15th."
+        - gridcell "No contributions on January 22nd."
+        - gridcell "No contributions on January 29th."
+        - gridcell "No contributions on February 5th."
+        - gridcell "No contributions on February 12th."
+        - gridcell "No contributions on February 19th."
+        - gridcell "No contributions on February 26th."
+        - gridcell "No contributions on March 5th."
+        - gridcell "No contributions on March 12th."
+        - gridcell "No contributions on March 19th."
+        - gridcell "No contributions on March 26th."
+        - gridcell "No contributions on April 2nd."
+        - gridcell "No contributions on April 9th."
+        - gridcell "No contributions on April 16th."
+        - gridcell "No contributions on April 23rd."
+        - gridcell "No contributions on April 30th."
+        - gridcell "No contributions on May 7th."
+        - gridcell "No contributions on May 14th."
+        - gridcell "No contributions on May 21st."
+        - gridcell "No contributions on May 28th."
+        - gridcell "No contributions on June 4th."
+        - gridcell "No contributions on June 11th."
+        - gridcell "No contributions on June 18th."
+        - gridcell "No contributions on June 25th."
+        - gridcell "No contributions on July 2nd."
+        - gridcell "No contributions on July 9th."
+      - row:
+        - gridcell "Thursday"
+        - gridcell "No contributions on July 11th."
+        - gridcell "No contributions on July 18th."
+        - gridcell "No contributions on July 25th."
+        - gridcell "No contributions on August 1st."
+        - gridcell "No contributions on August 8th."
+        - gridcell "No contributions on August 15th."
+        - gridcell "No contributions on August 22nd."
+        - gridcell "No contributions on August 29th."
+        - gridcell "No contributions on September 5th."
+        - gridcell "No contributions on September 12th."
+        - gridcell "No contributions on September 19th."
+        - gridcell "No contributions on September 26th."
+        - gridcell "No contributions on October 3rd."
+        - gridcell "No contributions on October 10th."
+        - gridcell "No contributions on October 17th."
+        - gridcell "No contributions on October 24th."
+        - gridcell "No contributions on October 31st."
+        - gridcell "No contributions on November 7th."
+        - gridcell "No contributions on November 14th."
+        - gridcell "No contributions on November 21st."
+        - gridcell "No contributions on November 28th."
+        - gridcell "No contributions on December 5th."
+        - gridcell "No contributions on December 12th."
+        - gridcell "No contributions on December 19th."
+        - gridcell "No contributions on December 26th."
+        - gridcell "No contributions on January 2nd."
+        - gridcell "No contributions on January 9th."
+        - gridcell "No contributions on January 16th."
+        - gridcell "No contributions on January 23rd."
+        - gridcell "No contributions on January 30th."
+        - gridcell "No contributions on February 6th."
+        - gridcell "No contributions on February 13th."
+        - gridcell "No contributions on February 20th."
+        - gridcell "No contributions on February 27th."
+        - gridcell "No contributions on March 6th."
+        - gridcell "No contributions on March 13th."
+        - gridcell "No contributions on March 20th."
+        - gridcell "No contributions on March 27th."
+        - gridcell "No contributions on April 3rd."
+        - gridcell "No contributions on April 10th."
+        - gridcell "No contributions on April 17th."
+        - gridcell "No contributions on April 24th."
+        - gridcell "No contributions on May 1st."
+        - gridcell "No contributions on May 8th."
+        - gridcell "No contributions on May 15th."
+        - gridcell "No contributions on May 22nd."
+        - gridcell "No contributions on May 29th."
+        - gridcell "No contributions on June 5th."
+        - gridcell "No contributions on June 12th."
+        - gridcell "No contributions on June 19th."
+        - gridcell "No contributions on June 26th."
+        - gridcell "No contributions on July 3rd."
+        - gridcell "No contributions on July 10th."
+      - row:
+        - gridcell "Friday"
+        - gridcell "No contributions on July 12th."
+        - gridcell "No contributions on July 19th."
+        - gridcell "No contributions on July 26th."
+        - gridcell "No contributions on August 2nd."
+        - gridcell "No contributions on August 9th."
+        - gridcell "No contributions on August 16th."
+        - gridcell "No contributions on August 23rd."
+        - gridcell "No contributions on August 30th."
+        - gridcell "No contributions on September 6th."
+        - gridcell "No contributions on September 13th."
+        - gridcell "No contributions on September 20th."
+        - gridcell "No contributions on September 27th."
+        - gridcell "No contributions on October 4th."
+        - gridcell "No contributions on October 11th."
+        - gridcell "No contributions on October 18th."
+        - gridcell "No contributions on October 25th."
+        - gridcell "No contributions on November 1st."
+        - gridcell "No contributions on November 8th."
+        - gridcell "No contributions on November 15th."
+        - gridcell "No contributions on November 22nd."
+        - gridcell "No contributions on November 29th."
+        - gridcell "No contributions on December 6th."
+        - gridcell "No contributions on December 13th."
+        - gridcell "No contributions on December 20th."
+        - gridcell "No contributions on December 27th."
+        - gridcell "No contributions on January 3rd."
+        - gridcell "No contributions on January 10th."
+        - gridcell "No contributions on January 17th."
+        - gridcell "No contributions on January 24th."
+        - gridcell "No contributions on January 31st."
+        - gridcell "No contributions on February 7th."
+        - gridcell "No contributions on February 14th."
+        - gridcell "No contributions on February 21st."
+        - gridcell "No contributions on February 28th."
+        - gridcell "No contributions on March 7th."
+        - gridcell "No contributions on March 14th."
+        - gridcell "No contributions on March 21st."
+        - gridcell "No contributions on March 28th."
+        - gridcell "No contributions on April 4th."
+        - gridcell "No contributions on April 11th."
+        - gridcell "No contributions on April 18th."
+        - gridcell "No contributions on April 25th."
+        - gridcell "No contributions on May 2nd."
+        - gridcell "No contributions on May 9th."
+        - gridcell "No contributions on May 16th."
+        - gridcell "No contributions on May 23rd."
+        - gridcell "No contributions on May 30th."
+        - gridcell "No contributions on June 6th."
+        - gridcell "No contributions on June 13th."
+        - gridcell "No contributions on June 20th."
+        - gridcell "No contributions on June 27th."
+        - gridcell "No contributions on July 4th."
+        - gridcell
+      - row:
+        - gridcell "Saturday"
+        - gridcell "No contributions on July 13th."
+        - gridcell "No contributions on July 20th."
+        - gridcell "No contributions on July 27th."
+        - gridcell "No contributions on August 3rd."
+        - gridcell "No contributions on August 10th."
+        - gridcell "No contributions on August 17th."
+        - gridcell "No contributions on August 24th."
+        - gridcell "No contributions on August 31st."
+        - gridcell "No contributions on September 7th."
+        - gridcell "No contributions on September 14th."
+        - gridcell "No contributions on September 21st."
+        - gridcell "No contributions on September 28th."
+        - gridcell "No contributions on October 5th."
+        - gridcell "No contributions on October 12th."
+        - gridcell "No contributions on October 19th."
+        - gridcell "No contributions on October 26th."
+        - gridcell "No contributions on November 2nd."
+        - gridcell "No contributions on November 9th."
+        - gridcell "No contributions on November 16th."
+        - gridcell "No contributions on November 23rd."
+        - gridcell "No contributions on November 30th."
+        - gridcell "No contributions on December 7th."
+        - gridcell "No contributions on December 14th."
+        - gridcell "No contributions on December 21st."
+        - gridcell "No contributions on December 28th."
+        - gridcell "No contributions on January 4th."
+        - gridcell "No contributions on January 11th."
+        - gridcell "No contributions on January 18th."
+        - gridcell "No contributions on January 25th."
+        - gridcell "No contributions on February 1st."
+        - gridcell "No contributions on February 8th."
+        - gridcell "No contributions on February 15th."
+        - gridcell "No contributions on February 22nd."
+        - gridcell "No contributions on March 1st."
+        - gridcell "No contributions on March 8th."
+        - gridcell "No contributions on March 15th."
+        - gridcell "No contributions on March 22nd."
+        - gridcell "No contributions on March 29th."
+        - gridcell "No contributions on April 5th."
+        - gridcell "No contributions on April 12th."
+        - gridcell "No contributions on April 19th."
+        - gridcell "No contributions on April 26th."
+        - gridcell "No contributions on May 3rd."
+        - gridcell "No contributions on May 10th."
+        - gridcell "No contributions on May 17th."
+        - gridcell "No contributions on May 24th."
+        - gridcell "No contributions on May 31st."
+        - gridcell "No contributions on June 7th."
+        - gridcell "No contributions on June 14th."
+        - gridcell "No contributions on June 21st."
+        - gridcell "No contributions on June 28th."
+        - gridcell "No contributions on July 5th."
+        - gridcell
+  - link "Learn how we count contributions":
+    - /url: https://docs.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile
+  - text: Less No contributions. Low contributions. Medium-low contributions. Medium-high contributions. High contributions. More
+  - list:
+    - listitem:
+      - link "Contribution activity in 2025":
+        - /url: /MartinGitLibrary?tab=overview&from=2025-07-01&to=2025-07-10
+        - text: "2025"
+  - heading "Contribution activity" [level=2]
+  - heading "July 2025" [level=3]
+  - text: MartinGitLibrary has no activity yet for this period. Loading
+  - button "Show more activity"
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "GitHub Homepage":
+    - /url: https://github.com
+  - text: © 2025 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - listitem:
+        - link "Terms":
+          - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - listitem:
+        - link "Privacy":
+          - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - listitem:
+        - link "Security":
+          - /url: https://github.com/security
+      - listitem:
+        - link "Status":
+          - /url: https://www.githubstatus.com/
+      - listitem:
+        - link "Docs":
+          - /url: https://docs.github.com/
+      - listitem:
+        - link "Contact":
+          - /url: https://support.github.com?tags=dotcom-footer
+      - listitem:
+        - button "Manage cookies"
+      - listitem:
+        - button "Do not share my personal information"
+```

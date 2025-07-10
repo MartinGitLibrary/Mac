@@ -28,6 +28,24 @@ test('Browser Contect in Playwright', { tag: ['@BrowserContext'] }, async({ page
              await page2.getByRole('button', { name: 'Search', exact: true }).click();
 
              await expect(page2.getByRole('link', { name: 'Salesforce login.salesforce.com Login | Salesforce' })).toHaveText('Salesforcelogin.salesforce.comLogin | Salesforce');
-    
+  
+             
+        // Create a new page in the same context
+        // This is a new page in the same browser context
+        // It shares the same cookies, local storage, and session storage as the previous page
+        // This is useful for testing scenarios where you want to test multiple pages in the same context
+        // For example, you can test navigation between pages in the same context
+        // You can also use this to test scenarios where you want to share the state of the browser
+        // For example, you can test scenarios where you want to share the cookies or local storage between pages
+        // This allows you to test scenarios where you want to share the state of the browser between pages
+        const newTab = await context2.newPage();
+
+             await newTab.goto('https://www.yahoo.com/search');
+
+             await newTab.getByRole('combobox', { name: 'Search query' }).click();
+             await newTab.getByRole('combobox', { name: 'Search query' }).fill('Salesforce');
+             await newTab.getByRole('button', { name: 'Search', exact: true }).click();
+
+
 
 })

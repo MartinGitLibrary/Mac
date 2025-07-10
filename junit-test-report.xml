@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="4.448765">
+<testsuite name="Chapter04/05_TextContent_GetAttribute_Test.spec.ts" timestamp="2025-07-10T20:12:43.121Z" hostname="Google Chrome Max" tests="1" failures="0" skipped="0" time="3.536" errors="0">
+<testcase name="Get Text &amp; Get Attribute value in playwright" classname="Chapter04/05_TextContent_GetAttribute_Test.spec.ts" time="3.536">
+<system-out>
+<![CDATA[Name is : Martin Personal
+Attribute value is : repositories /MartinGitLibrary?tab=repositories
+
+[[ATTACHMENT|test-results/Chapter04-05_TextContent_G-36787-tribute-value-in-playwright-Google-Chrome-Max/test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
